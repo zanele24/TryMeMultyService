@@ -26,10 +26,12 @@
   <title>
     Try Me Multi Service
   </title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+    name='viewport' />
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="../assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
@@ -39,57 +41,74 @@
 
 <body class="landing-page sidebar-collapse">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " style="background-color: #9c7a4b;"
+    color-on-scroll="400">
     <div class="container">
-      <div class="dropdown button-dropdown">
-        <a href="#pablo" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
-          <span class="button-bar"></span>
-          <span class="button-bar"></span>
-          <span class="button-bar"></span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-header">Dropdown header</a>
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">One more separated link</a>
-        </div>
-      </div>
       <div class="navbar-translate">
-        <a class="navbar-brand" href="https://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
-          Now Ui Kit
+        <a class="navbar-brand" href="index.html" rel="tooltip" title="We are the service" data-placement="bottom"
+          target="_blank">
+          Try Me Multi Service
         </a>
-        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar top-bar"></span>
           <span class="navbar-toggler-bar middle-bar"></span>
           <span class="navbar-toggler-bar bottom-bar"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
+      <div class="collapse navbar-collapse justify-content-end" id="navigation"
+        data-nav-image="./assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="../index.html">Back to Kit</a>
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="now-ui-icons"></i>
+              <p>Service</p>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">Have an issue?</a>
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="now-ui-icons"></i>
+              <p>Have a Query?</p>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="now-ui-icons"></i>
+              <p>About</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="now-ui-icons"></i>
+              <p>Founders</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-neutral" href="https://www.creative-tim.com/product/now-ui-kit-pro"
+              target="_blank">
+              <i class="now-ui-icons ui-1_email-85"></i>
+              <p>Contact Us</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom"
+              href="https://twitter.com/CreativeTim" target="_blank">
               <i class="fab fa-twitter"></i>
               <p class="d-lg-none d-xl-none">Twitter</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom"
+              href="https://www.facebook.com/CreativeTim" target="_blank">
               <i class="fab fa-facebook-square"></i>
               <p class="d-lg-none d-xl-none">Facebook</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom"
+              href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
               <i class="fab fa-instagram"></i>
               <p class="d-lg-none d-xl-none">Instagram</p>
             </a>
@@ -100,7 +119,7 @@
   </nav>
   <!-- End Navbar -->
   <div class="wrapper">
-    <div class="page-header page-header-small">
+    <div class="page-header page-header-small" style="background-color:rgba(18, 9, 71, 0.8)">
       <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/bg6.jpg');">
       </div>
       <div class="content-center">
@@ -120,46 +139,61 @@
         </div>
       </div>
     </div>
-    <div class="section section-about-us">
+    <div class="section section-about-us" data-background-color="black">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">Who we are?</h2>
-            <h5 class="description">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice extent in the Pacific and a late drop in ice extent in the Barents Sea.</h5>
+            <h5 class="description">According to the National Oceanic and Atmospheric Administration, Ted, Scambos,
+              NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice
+              extent in the Pacific and a late drop in ice extent in the Barents Sea.</h5>
           </div>
         </div>
         <div class="separator separator-primary"></div>
         <div class="section-story-overview">
           <div class="row">
             <div class="col-md-6">
-              <div class="image-container image-left" style="background-image: url('../assets/img/login.jpg')">
+              <div class="image-container image-left" style="background-image: url('../assets/img/gardener-bg.png')">
                 <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary">"Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctichas increased very slightly"
+                <p class="blockquote blockquote-primary">"Over the span of the satellite record, Arctic sea ice has been
+                  declining significantly, while sea ice in the Antarctichas increased very slightly"
                   <br>
                   <br>
                   <small>-NOAA</small>
                 </p>
               </div>
               <!-- Second image on the left side of the article -->
-              <div class="image-container" style="background-image: url('../assets/img/bg3.jpg')"></div>
+              <div class="image-container" style="background-image: url('../assets/img/security-bg.png')"></div>
             </div>
             <div class="col-md-5">
               <!-- First image on the right side, above the article -->
-              <div class="image-container image-right" style="background-image: url('../assets/img/bg1.jpg')"></div>
+              <div class="image-container image-right" style="background-image: url('../assets/img/cleaning-bg.png')">
+              </div>
               <h3>So what does the new record for the lowest level of winter ice actually mean</h3>
-              <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
+              <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process
+                will continue whatever happens with climate change. Even if the Arctic continues to be one of the
+                fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every
+                winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the
+                ice.
               </p>
               <p>
-                For a start, it does not automatically follow that a record amount of ice will melt this summer. More important for determining the size of the annual thaw is the state of the weather as the midnight sun approaches and temperatures rise. But over the more than 30 years of satellite records, scientists have observed a clear pattern of decline, decade-by-decade.
+                For a start, it does not automatically follow that a record amount of ice will melt this summer. More
+                important for determining the size of the annual thaw is the state of the weather as the midnight sun
+                approaches and temperatures rise. But over the more than 30 years of satellite records, scientists have
+                observed a clear pattern of decline, decade-by-decade.
               </p>
-              <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens with climate change. Even if the Arctic continues to be one of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the ice.
+              <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process
+                will continue whatever happens with climate change. Even if the Arctic continues to be one of the
+                fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark every
+                winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state of the
+                ice.
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="section section-team text-center">
+    <div class="section section-team text-center" data-background-color="black">
       <div class="container">
         <h2 class="title">Here is our team</h2>
         <div class="team">
@@ -169,8 +203,10 @@
                 <img src="../assets/img/avatar.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Romina Hadid</h4>
                 <p class="category text-primary">Model</p>
-                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                <p class="description">You can write here details about one of your team members. You can give more
+                  details about what they do. Feel free to add some
+                  <a href="#">links</a> for people to be able to follow them outside the site.
+                </p>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-twitter"></i></a>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-instagram"></i></a>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-facebook-square"></i></a>
@@ -181,8 +217,10 @@
                 <img src="../assets/img/ryan.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                 <h4 class="title">Ryan Tompson</h4>
                 <p class="category text-primary">Designer</p>
-                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                <p class="description">You can write here details about one of your team members. You can give more
+                  details about what they do. Feel free to add some
+                  <a href="#">links</a> for people to be able to follow them outside the site.
+                </p>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-twitter"></i></a>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-linkedin"></i></a>
               </div>
@@ -195,10 +233,13 @@
                 <p class="description">My role as a software developer is to design, develop, test and maintain software
                   applications that meet the needs of clients or end-users. I collaborate with other developers, project
                   managers, and stakeholders to understand the requirements and develop solutions that align with the
-                  organization's goals and objectives. I keep myself updated with the latest technologies and trends to ensure
-                  the software is up-to-date and meets industry standards. My journey has been challenging yet fulfilling, and I
+                  organization's goals and objectives. I keep myself updated with the latest technologies and trends to
+                  ensure
+                  the software is up-to-date and meets industry standards. My journey has been challenging yet
+                  fulfilling, and I
                   am excited to continue learning and developing my skills in this ever-evolving field.
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                  <a href="#">links</a> for people to be able to follow them outside the site.
+                </p>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-google-plus"></i></a>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-youtube"></i></a>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-twitter"></i></a>
@@ -208,7 +249,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-contact-us text-center">
+    <div class="section section-contact-us text-center" data-background-color="black">
       <div class="container">
         <h2 class="title">Want to work with us?</h2>
         <p class="description">Your project is very important to us.</p>
@@ -240,8 +281,9 @@
         </div>
       </div>
     </div>
-    <footer class="footer footer-default">
-      <div class=" container " style="position: absolute; ">
+    <footer class="footer"
+      style=" color: aliceblue; background-image: radial-gradient(circle, #9c7a4b, #985f48, #8a484d, #713753, #4e2d55, #382b53, #1f294d, #002544, #00253d, #052535, #0e242d, #162226);">
+      <div class=" container " style=" justify-content: center; align-items: ce;">
         <div class="copyright" id="copyright">
           &copy;
           <script>
